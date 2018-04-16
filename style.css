@@ -6,6 +6,11 @@ body {
 	margin: 0;
 }
 
+p {		
+	windows: 3;
+	orphans: 3;
+}
+
 .logoContainer {
 	height: 100%;
 	display:table-cell;
@@ -476,6 +481,11 @@ body {
 		margin: 0;
 	}
 
+	p {
+		windows: 3;
+		orphans: 3;
+	}
+	
 	.logoContainer {
 		height: 100%;
 		display:table-cell;
@@ -513,6 +523,8 @@ body {
 		font-weight: 100;
 		text-align: center;
 		color: #ed8418;
+		windows: 3;
+		orphans: 3;
 	}
 	
 	.ticketImages {
@@ -522,16 +534,16 @@ body {
 	}
 
 	.tickets {
-		width: 50%;
+		width: 70%;
 		text-align: center;
 		margin: 0;
 	}
 
 	.buyNow {
-		width: 80%;
+		width: 50%;
 		float: none;
 		margin-right: 0;
-		margin-top: 10px;
+		margin-top: 20px;
 		text-align: center;
 	}
 
@@ -625,6 +637,7 @@ body {
 	
 	.socialMedia img {
 		margin-top: 10px;
+		width: 40%;
 	}
 	
 	.copywrite{
