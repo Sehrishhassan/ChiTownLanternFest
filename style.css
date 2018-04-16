@@ -28,10 +28,10 @@ body {
 	min-height: 100vh;
 }
 
-.cn {
-  	vertical-align: middle;
-	display: table;
-	text-align: center;
+.skyline {
+	background-image: url(images/Skyline.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .section h1 {
@@ -43,7 +43,7 @@ body {
 	color: #ed8418;
 }
 
-.section p {
+.section .text {
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 40px;
 	font-weight: 100;
@@ -63,16 +63,15 @@ body {
 }
 
 .iconsContainer {
-	width: 50%;
     margin-left: auto; 
     margin-right: auto;
-
-    text-align: justify;
-    text-justify: distribute-all-lines;
+	text-align: center;
 }
 
 .iconsContainer img {
-	max-height: 50%;
+	margin-right: 30px;
+	margin-left: 30px;
+	width: 10%;
 }
 
 .iconsContainer .stretch {
@@ -98,11 +97,6 @@ body {
 	z-index: -1;
 }
 
-.skyline {
-	width: 100%;
-	vertical-align: bottom;
-}
-
 .backgroundLamps {
 	position: absolute;
 	top:0px;
@@ -114,3 +108,41 @@ body {
 	opacity: .7;
 }
 
+.skylineContainer h2 {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-weight: 700;
+	color: black;
+	
+}
+
+.skylineContainer p {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-weight: 700;
+	color: black;
+}
+
+.skylineContainer {
+	position: relative;
+	top: 65vh;
+}
+
+.contact {
+	position: relative;
+	width: 33%;
+	text-align: center;
+	float: left;
+}
+
+.copywrite{
+	width: 100%;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	text-align: center;
+	background-color: #f89a06;
+}
+
+.socialMedia {
+	width: 33%;
+	float: left;
+	align-content: center;
+	text-align: center;
+}
