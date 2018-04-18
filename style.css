@@ -38,9 +38,12 @@ nav a {
   	padding: 1.5em 4em 1.5em 4.2em;
   	text-transform: uppercase;
   	text-decoration: none;
+	min-height: 1.5em;
 }
 
 nav a:hover, nav a:focus { background: #E4B363; }
+
+.buyNow:hover {opacity: 1;}
 
 .site-nav--icon {
   font-size: 1.4em;
@@ -275,6 +278,7 @@ p {
 	float: right;
 	margin-top: 100px;
 	margin-right: 100px;
+	opacity: .85;
 }
 
 .ticketImages {
