@@ -1,8 +1,18 @@
 // JavaScript Document
+function animateDown(group) {
+	"use strict";
+	$.when($( group ).animate({
+		top: "+=200"
+	}, 80000)).then(function(){});
+}
 
-$( "#lamps1" ).animate({
-	right: "-=500",
-	top: "+=400"
-  }, 50000, function() {
-    // Animation complete.
-  });
+function animateUp(group) {
+	"use strict";
+	$.when($( group ).animate({
+		top: "-=200"
+
+	  }, 80000)).then(function(){});
+}
+
+animateDown(".group1");
+animateUp(".group2");
